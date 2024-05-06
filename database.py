@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 client = MongoClient("mongodb://localhost:27017/")
-db = client["blog_db"]  # Replace with your database name
+db = client["blog_db"]  #database name
 
 async def get_blog_posts():
     posts = db.posts.find()
