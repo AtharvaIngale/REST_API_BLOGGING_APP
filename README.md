@@ -37,7 +37,7 @@ pip install uvicorn pymongo fastapi pydantic
 5. Start the application using uvicorn:
 
    ```bash
-   uvicorn main:app --reload  # Reloads automatically on code changes
+   uvicorn main:app
    ```
 
 ### API Endpoints
