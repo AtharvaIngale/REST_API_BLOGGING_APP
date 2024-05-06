@@ -1,4 +1,4 @@
-## Blogging Platform API with FASTAPI and MongoDB
+## Blogging Platform Using REST API
 
 This API provides a RESTful interface for a simple blogging platform built with Python's FASTAPI framework and utilizes MongoDB for data storage. It adheres to object-oriented programming principles and allows users to:
 
