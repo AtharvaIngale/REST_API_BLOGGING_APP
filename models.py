@@ -1,8 +1,5 @@
 from pydantic import BaseModel, Field
 
-class User(BaseModel):
-    # ... User model definition (optional for future features)
-
 class Comment(BaseModel):
     content: str = Field(..., min_length=10)
     author: str
