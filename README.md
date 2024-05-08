@@ -36,9 +36,9 @@ pip install uvicorn pymongo fastapi pydantic
 4. Open a terminal in the project directory.
 5. Start the application using uvicorn:
 
-   ```bash
-   uvicorn main:app
-   ```
+```bash
+uvicorn main:app
+```
 
 ### API Endpoints
 
